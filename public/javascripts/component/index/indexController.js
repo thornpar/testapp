@@ -1,5 +1,4 @@
-angular.module('testModule').controller('testModule.indexController',['$scope', indexController]);
+angular.module('testModule').controller('testModule.indexController',['$scope','$state', indexController]);
 
-function indexController($scope) {
-    $scope.hello = 'asdfsafd';
+function indexController($scope, $state) {
 }

@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html ng-app="testModule">
   <head>
+    <base href="/">
 
     <script type="application/javascript" src="angular/angular.js"></script>
+    <script type="application/javascript" src="angular-ui-router/release/angular-ui-router.min.js"></script>
     <script type="application/javascript" src="javascripts/main.js"></script>
+    <script type="application/javascript" src="javascripts/routing.js"></script>
     <script type="application/javascript" src="javascripts/component/index/indexController.js"></script>
     <script type="application/javascript" src="javascripts/component/index/index.js"></script>
 
-    <title><%= title %></title>
+    <script type="application/javascript" src="javascripts/component/characterlist/characterlist.js"></script>
+    <script type="application/javascript" src="javascripts/component/characterlist/characterlistController.js"></script>
+    <script type="application/javascript" src="javascripts/component/characterlist/characterlistService.js"></script>
+
+    <script type="application/javascript" src="javascripts/component/characterdetails/characterdetails.js"></script>
+    <script type="application/javascript" src="javascripts/component/characterdetails/characterdetailsController.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="application/javascript" src="bootstrap/dist/js/bootstrap.js"></script>
+
+    <title>Game of thrones rulez!</title>
+
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='bootstrap/dist/css/bootstrap.css'/>
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-
-  <index-test></index-test>
+    <index></index>
   </body>
 </html>

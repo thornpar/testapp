@@ -1,0 +1,14 @@
+<ul class="list-group">
+        <div class="row">
+            <h1 class="text-center col-md-12"> Character-list (you can click the images)</h1>
+        </div>
+    <label>Search: <input class="search-input" ng-model="searchText"></label>
+        <div ng-repeat="character in characters | filter : searchText">
+            <li class="list-group-item">
+                <div>Name : {{character.name}}</div>
+                <div>Age : {{character.age}}</div>
+                <img src="images/{{character.image}}" ui-sref="details({characterName : '{{character.name}}'})" height="200px" width="200px">
+            </li>
+        </div>
+    </ul>
+

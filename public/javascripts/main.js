@@ -1,1 +1,1 @@
-angular.module('testModule',[]);
+angular.module('testModule',['ui.router']);

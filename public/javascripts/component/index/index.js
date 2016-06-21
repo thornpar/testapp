@@ -1,11 +1,9 @@
-angular.module('testModule').directive('indexTest',function () {
+angular.module('testModule').directive('index',function () {
     return {
         restrict: 'EA',
         scope: {
         },
-        controller: function ($scope) {
-            $scope.hello = 'asdf';
-        },
+        controller: 'testModule.indexController',
         templateUrl: 'javascripts/component/index/index.html'
     };
 });
