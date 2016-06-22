@@ -25,3 +25,6 @@ Your job is to write protractor tests for this application.
  In the test folder you will find a protractor config file (conf.js), a pageobject file and some testfiles. The index.spec.js file contains some simple tests so you have something to get you going.
  
  Write some more tests that you think will be appropriate to ensure this very useful site can keep its high standards.
+ 
+ # How to submit
+  Publish this repository along with your fresh tests and notify us.
