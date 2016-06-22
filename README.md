@@ -26,5 +26,5 @@ Your job is to write protractor tests for this application.
  
  Write some more tests that you think will be appropriate to ensure this very useful site can keep its high standards.
  
- # How to submit
-  Publish this repository along with your fresh tests and notify us.
+# How to submit
+Publish this project along with your fresh tests on your own github account and send the github link to us.
